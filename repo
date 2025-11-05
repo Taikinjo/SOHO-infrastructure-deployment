@@ -1,0 +1,23 @@
+soho-infrastructure-deployment/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── assets/
+│   ├── topology.png
+│   ├── vlan_brief.png
+│   ├── ping_tests.png
+│
+├── configs/
+│   ├── router_show_run.txt
+│   ├── switch_core_show_run.txt
+│
+├── docs/
+│   ├── project_summary.md
+│   ├── ip_scheme.md
+│   ├── validation.md
+│   ├── security_basics.md
+│   └── roadmap.md
+│
+└── soho_deployment.pka
