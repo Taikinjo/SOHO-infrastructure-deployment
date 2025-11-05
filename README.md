@@ -17,10 +17,5 @@
 
 ## Config Exports
 - Show_ip_interface_brief.txt: `configs/show_ip_interface_brief.txt`
-- Show_ip_interface_brief.txt: `configs/show_ip_interface_brief.txt`
+- Show_ip_route.txt: `configs/show_ip_route.txt`
 - Sw-core_show_run.txt: `configs/sw-core_show_run.txt`
-
-
-
-
-
