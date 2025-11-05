@@ -10,10 +10,11 @@
 
 ## Topology & Screens
 - Topology: `assets/topology.png`
-- Core switch status: `assets/sw-core-interface-status.png`
-- Router interfaces: `assets/router-interface-brief.png`
-- DHCP bindings: `assets/dhcp_bindings.png`
-- Routing table: `assets/ip_route.png`
+- Vlan_brief.png: `assets/vlan_brief.png`
+- Ping_tests.png: `assets/ping_tests.png`
+- Ip_route.png: `assets/ip_route.png`
+- Ip_interface_brief.png: `assets/ip_interface_brief.png`
+- Dhcp_bindings.png: `assets/dhcp_bindings.png`
 
 ## Config Exports
 - Show_ip_interface_brief.txt: `configs/show_ip_interface_brief.txt`
