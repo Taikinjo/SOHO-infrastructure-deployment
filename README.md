@@ -19,8 +19,6 @@
 - Show_ip_interface_brief.txt: `configs/show_ip_interface_brief.txt`
 - Show_ip_interface_brief.txt: `configs/show_ip_interface_brief.txt`
 - Sw-core_show_run.txt: `configs/sw-core_show_run.txt`
-- Routing table (router): `configs/show_ip_route.txt`
-- DHCP bindings (router): `configs/show_ip_dhcp_binding.txt`
 
 
 
