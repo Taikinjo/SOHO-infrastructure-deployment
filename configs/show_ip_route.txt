@@ -1,0 +1,38 @@
+IP address       Client-ID/              Lease expiration        Type
+                 Hardware address
+Kinjo-VOICE#show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol 
+GigabitEthernet0/0     unassigned      YES unset  up                    up 
+GigabitEthernet0/0.10  192.168.10.1    YES manual up                    up 
+GigabitEthernet0/0.20  192.168.20.1    YES manual up                    up 
+GigabitEthernet0/0.30  192.168.30.1    YES manual up                    up 
+GigabitEthernet0/0.40  192.168.40.1    YES manual up                    up 
+GigabitEthernet0/0.99  192.168.99.1    YES manual up                    up 
+GigabitEthernet0/1     unassigned      YES unset  up                    up 
+Vlan1                  unassigned      YES unset  administratively down down
+Kinjo-VOICE#show ip route
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2, E - EGP
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       * - candidate default, U - per-user static route, o - ODR
+       P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     192.168.10.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.10.0/24 is directly connected, GigabitEthernet0/0.10
+L       192.168.10.1/32 is directly connected, GigabitEthernet0/0.10
+     192.168.20.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.20.0/24 is directly connected, GigabitEthernet0/0.20
+L       192.168.20.1/32 is directly connected, GigabitEthernet0/0.20
+     192.168.30.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.30.0/24 is directly connected, GigabitEthernet0/0.30
+L       192.168.30.1/32 is directly connected, GigabitEthernet0/0.30
+     192.168.40.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.40.0/24 is directly connected, GigabitEthernet0/0.40
+L       192.168.40.1/32 is directly connected, GigabitEthernet0/0.40
+     192.168.99.0/24 is variably subnetted, 2 subnets, 2 masks
+C       192.168.99.0/24 is directly connected, GigabitEthernet0/0.99
+L       192.168.99.1/32 is directly connected, GigabitEthernet0/0.99
